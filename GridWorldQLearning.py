@@ -9,8 +9,8 @@ WALL = [[1, 1]]
 
 # Hyperparameters
 EXPLORATION_RATE = 0.1      # epsilon
-LEARNING_RATE = 0.5
-DISCOUNT_FACTOR = 0.99
+LEARNING_RATE = 0.5         # alpha
+DISCOUNT_FACTOR = 0.99      # gamma
 NUM_EPISODES = 10000
 
 actions = ("up", "right", "down", "left")
